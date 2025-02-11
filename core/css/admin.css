@@ -1,0 +1,54 @@
+body{
+    display: flex;
+}
+header{
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: #333;
+    text-align: left;
+    padding: 30px 10px;
+    position: fixed;
+}
+
+main{
+    width: 1920px;
+    overflow-x: scroll;
+    margin-left: 200px;
+}
+
+form{
+    width: 350px;
+    margin-left: 30vw;
+}
+
+.table{
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #000;
+}
+
+
+
+.row p, .row a{
+    width: 300px;
+    min-height: 50px;
+    text-align: center;
+    border: 1px solid #000;
+    border-top: none;
+    border-bottom: none;
+    align-content: center;
+}
+
+.row a{
+    color: red;
+    cursor: pointer;
+}
